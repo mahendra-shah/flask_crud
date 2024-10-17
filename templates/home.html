@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+</head>
+<body>
+    <h1>Welcome to Our Website</h1>
+    <nav>
+        <ul>
+            <li><a href="{{ url_for('hello_world') }}">Home</a></li>
+            <li><a href="{{ url_for('add_user') }}">Add User</a></li>
+            <li><a href="{{ url_for('products') }}">Products</a></li>
+        </ul>
+    </nav>
+    <main>
+        <p>This is the home page of our website. Feel free to explore!</p>
+    </main>
+</body>
+</html>
